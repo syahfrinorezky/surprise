@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-primary: var(--font-righteous);
+  --font-secondary: var(--font-poppins);
+  --font-tertiary: var(--font-inter);
+
+  --color-primary: #5745ee;
+  --color-secondary: #1f222a;
+}
