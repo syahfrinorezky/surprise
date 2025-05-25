@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-primary: var(--font-righteous);
+  --font-secondary: var(--font-inter);
+  --font-tertiary: var(--font-poppins);
+}
