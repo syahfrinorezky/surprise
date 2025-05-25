@@ -4,4 +4,15 @@
   --font-primary: var(--font-righteous);
   --font-secondary: var(--font-inter);
   --font-tertiary: var(--font-poppins);
+
+  --color-primary: #5745ee;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type="date"] {
+  -moz-appearance: textfield;
 }
