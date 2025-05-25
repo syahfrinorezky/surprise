@@ -16,7 +16,9 @@ export default function RootLayout({
           inter.variable,
           poppins.variable
         )}>
-        {children}
+        <div className="min-h-screen flex items-center justify-center bg-stone-900 text-white">
+          {children}
+        </div>
       </body>
     </html>
   );
